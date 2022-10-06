@@ -1,0 +1,47 @@
+.right {
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    border:3px solid #f6f8f3;
+    padding: 10px;
+} 
+.showcase {
+    width: 100%;
+    height: 93vh;
+    position: relative;
+    background: url(./uk_house-of-disney-plus_hero_m_5be7cb27.webp)no-repeat center center/cover;
+    /* background: rgba(0, 128, 0, 0.3); */
+    z-index: 1;
+    
+}
+
+.showcase::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: rgba(0, 0, 0,0.6);
+    box-shadow: inset 120px 100px 250px #000000,inset -120px -100px 250px #000000;
+}
+.showcase-top{
+    width:100%;
+    height: 200px;
+    position: absolute;
+    top: 40%;
+    left: 60%;
+    transform: translate(-40%, -60%);
+    box-shadow: inset;
+}
+
+.showcase-top-image {
+        width: fit-content;
+        height: 100px;
+        position: relative;
+        
+}
+
+
+
